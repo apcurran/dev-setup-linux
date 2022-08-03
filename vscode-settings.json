@@ -1,0 +1,29 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Cascadia Mono, Consolas, 'Courier New', monospace",
+    "emmet.excludeLanguages": [
+        "markdown"
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.minimap.enabled": false,
+    "extensions.ignoreRecommendations": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "workbench.startupEditor": "none",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact"
+    ],
+    "telemetry.telemetryLevel": "off",
+    "security.workspace.trust.untrustedFiles": "open",
+    "rest-client.enableTelemetry": false,
+    "rest-client.fontFamily": "Cascadia Mono, Consolas, 'Courier New', monospace",
+    "files.restoreUndoStack": false,
+    "editor.linkedEditing": true
+}
