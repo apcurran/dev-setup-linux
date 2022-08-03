@@ -1,8 +1,5 @@
 ## NPM global tools
 
 ```
-nodemon
-npm-check-updates
-lite-server
-svgo
+npm install -g nodemon npm-check-updates lite-server svgo
 ```
