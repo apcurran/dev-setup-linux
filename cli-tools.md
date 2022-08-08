@@ -12,3 +12,8 @@ fd
 ```
 fnm
 ```
+
+## Static code analysis (find bugs & security vulnerabilities)
+```
+python3 -m pip install semgrep
+```
