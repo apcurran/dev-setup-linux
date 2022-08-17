@@ -27,6 +27,7 @@ alias gcm='git commit -m'
 alias gp='git push'
 alias gpl='git pull'
 alias gd='git diff'
+alias gb='git branch'
 ```
 
 ## System
