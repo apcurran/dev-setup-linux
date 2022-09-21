@@ -25,5 +25,7 @@
     "rest-client.enableTelemetry": false,
     "rest-client.fontFamily": "Cascadia Mono, Consolas, 'Courier New', monospace",
     "files.restoreUndoStack": false,
-    "editor.linkedEditing": true
+    "editor.linkedEditing": true,
+    "window.title": "${activeEditorMedium}",
+    "breadcrumbs.enabled": false
 }
