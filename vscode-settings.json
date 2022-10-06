@@ -27,5 +27,10 @@
     "files.restoreUndoStack": false,
     "editor.linkedEditing": true,
     "window.title": "${activeEditorMedium}",
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "css.lint.important": "error",
+    "css.lint.importStatement": "warning",
+    "css.lint.zeroUnits": "warning",
+    "css.lint.idSelector": "warning",
+    "scss.lint.important": "error"
 }
