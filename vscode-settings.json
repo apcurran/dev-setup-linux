@@ -14,7 +14,7 @@
     "workbench.startupEditor": "none",
     "editor.bracketPairColorization.enabled": true,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": "explicit"
     },
     "eslint.validate": [
         "javascript",
@@ -22,8 +22,6 @@
     ],
     "telemetry.telemetryLevel": "off",
     "security.workspace.trust.untrustedFiles": "open",
-    "rest-client.enableTelemetry": false,
-    "rest-client.fontFamily": "Cascadia Mono, Consolas, 'Courier New', monospace",
     "files.restoreUndoStack": false,
     "editor.linkedEditing": true,
     "window.title": "${activeEditorMedium}",
@@ -32,5 +30,13 @@
     "css.lint.importStatement": "warning",
     "css.lint.zeroUnits": "warning",
     "css.lint.idSelector": "warning",
-    "scss.lint.important": "error"
+    "scss.lint.important": "error",
+    "git.openRepositoryInParentFolders": "always",
+    "javascript.preferences.useAliasesForRenames": false,
+    "typescript.preferences.useAliasesForRenames": false,
+    "editor.indentSize": "tabSize",
+    "livePreview.customExternalBrowser": "Chrome",
+    "livePreview.openPreviewTarget": "External Browser",
+    "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+    "editor.snippetSuggestions": "top"
 }
