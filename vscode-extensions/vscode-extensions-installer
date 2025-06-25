@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+xargs -n1 code --install-extension < my-vscode-extensions.txt

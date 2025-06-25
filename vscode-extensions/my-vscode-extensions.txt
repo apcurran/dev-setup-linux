@@ -1,0 +1,5 @@
+ms-vscode-remote.remote-wsl
+oxc.oxc-vscode
+dbaeumer.vscode-eslint
+timonwong.shellcheck
+burkeholland.simple-react-snippets
