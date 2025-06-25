@@ -31,8 +31,8 @@ alias gb='git branch'
 ```
 
 ## System
-```
-alias supgrade='sudo apt update; sudo apt upgrade'
+```bash
+alias supgrade='sudo apt update && sudo apt upgrade'
 ```
 
 ## Python
