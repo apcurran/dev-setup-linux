@@ -1,4 +1,4 @@
-## Postgres
+## Postgres Commands
 ```bash
 alias pg-start='sudo service postgresql start'
 alias pg-run='sudo -u postgres psql'
@@ -19,7 +19,7 @@ alias l='ls -CF'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 ```
 
-## Git
+## Git Commands
 ```bash
 alias gs='git status'
 alias gaa='git add .'
