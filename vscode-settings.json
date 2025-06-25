@@ -35,8 +35,11 @@
     "javascript.preferences.useAliasesForRenames": false,
     "typescript.preferences.useAliasesForRenames": false,
     "editor.indentSize": "tabSize",
-    "livePreview.customExternalBrowser": "Chrome",
-    "livePreview.openPreviewTarget": "External Browser",
-    "livePreview.autoRefreshPreview": "On Changes to Saved Files",
-    "editor.snippetSuggestions": "top"
+    "editor.snippetSuggestions": "top",
+    "remote.autoForwardPortsSource": "hybrid",
+    "debug.inlineValues": "on",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.editor.empty.hint": "hidden",
+    "terminal.integrated.fontFamily": "Consolas",
+    "terminal.integrated.fontSize": 16
 }
