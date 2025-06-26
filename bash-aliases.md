@@ -30,6 +30,7 @@ gcm() {
 alias gp='git push'
 alias gpl='git pull'
 alias gd='git diff'
+alias gds='git diff --staged'
 alias gb='git branch'
 ```
 
