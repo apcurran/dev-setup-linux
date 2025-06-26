@@ -22,7 +22,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 ## Git Commands
 ```bash
 alias gs='git status'
-alias gaa='git add .'
+alias gaa='git add -A'
 # Git Commit Message function (allows use of backticks for inline code in commit messages)
 gcm() {
   git commit -m "$@"
