@@ -1,4 +1,5 @@
 ms-vscode-remote.remote-wsl
+esbenp.prettier-vscode
 oxc.oxc-vscode
 dbaeumer.vscode-eslint
 timonwong.shellcheck
