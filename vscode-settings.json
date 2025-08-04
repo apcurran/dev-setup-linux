@@ -1,45 +1,38 @@
 {
-    "editor.fontSize": 16,
-    "editor.fontFamily": "Cascadia Mono, Consolas, 'Courier New', monospace",
-    "emmet.excludeLanguages": [
-        "markdown"
-    ],
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "editor.minimap.enabled": false,
-    "extensions.ignoreRecommendations": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "js/ts.implicitProjectConfig.checkJs": true,
-    "workbench.startupEditor": "none",
-    "editor.bracketPairColorization.enabled": true,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit"
-    },
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact"
-    ],
-    "telemetry.telemetryLevel": "off",
-    "security.workspace.trust.untrustedFiles": "open",
-    "files.restoreUndoStack": false,
-    "editor.linkedEditing": true,
-    "window.title": "${activeEditorMedium}",
-    "breadcrumbs.enabled": false,
-    "css.lint.important": "error",
-    "css.lint.importStatement": "warning",
-    "css.lint.zeroUnits": "warning",
-    "css.lint.idSelector": "warning",
-    "scss.lint.important": "error",
-    "git.openRepositoryInParentFolders": "always",
-    "javascript.preferences.useAliasesForRenames": false,
-    "typescript.preferences.useAliasesForRenames": false,
-    "editor.indentSize": "tabSize",
-    "editor.snippetSuggestions": "top",
-    "remote.autoForwardPortsSource": "hybrid",
-    "debug.inlineValues": "on",
-    "workbench.colorTheme": "Default Dark+",
-    "workbench.editor.empty.hint": "hidden",
-    "terminal.integrated.fontFamily": "Consolas",
-    "terminal.integrated.fontSize": 16
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Cascadia Mono, Consolas, 'Courier New', monospace",
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.minimap.enabled": false,
+  "extensions.ignoreRecommendations": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "workbench.startupEditor": "none",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": ["javascript", "javascriptreact"],
+  "telemetry.telemetryLevel": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.restoreUndoStack": false,
+  "editor.linkedEditing": true,
+  "window.title": "${activeEditorMedium}",
+  "breadcrumbs.enabled": false,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "git.openRepositoryInParentFolders": "always",
+  "javascript.preferences.useAliasesForRenames": false,
+  "typescript.preferences.useAliasesForRenames": false,
+  "editor.indentSize": "tabSize",
+  "editor.snippetSuggestions": "top",
+  "remote.autoForwardPortsSource": "hybrid",
+  "debug.inlineValues": "on",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.editor.empty.hint": "hidden",
+  "terminal.integrated.fontFamily": "Consolas",
+  "terminal.integrated.fontSize": 16
 }
