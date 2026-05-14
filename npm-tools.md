@@ -1,5 +1,5 @@
 ## NPM global tools
 
 ```shell
-npm install -g npm-check-updates svgo
+npm install -g sfw npm-check-updates svgo
 ```
