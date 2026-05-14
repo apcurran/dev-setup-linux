@@ -1,0 +1,29 @@
+#!/bin/bash
+
+### sfw (Socket Firewall) wrapper for npm package installs ###
+if command -v sfw >/dev/null 2>&1; then
+  _sfw_pm() {
+    local cmd="$1"
+    shift
+    local bin
+    bin="$(type -P "$cmd")"
+    if [[ -z "$bin" ]]; then
+      echo "Socket Firewall: could not find real $cmd on PATH" >&2
+      return 127
+    fi
+    if [[ "${SFW_BYPASS:-}" == "1" ]]; then
+      "$bin" "$@"
+      return $?
+    fi
+    command sfw "$bin" "$@"
+  }
+
+  npm() { _sfw_pm npm "$@"; }
+  npx() { _sfw_pm npx "$@"; }
+  pnpm() { _sfw_pm pnpm "$@"; }
+  yarn() { _sfw_pm yarn "$@"; }
+  pip() { _sfw_pm pip "$@"; }
+  pip3() { _sfw_pm pip3 "$@"; }
+  uv() { _sfw_pm uv "$@"; }
+  cargo() { _sfw_pm cargo "$@"; }
+fi
