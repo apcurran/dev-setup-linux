@@ -1,0 +1,26 @@
+// Add these to pre-existing settings obj
+{
+    "snippet_sort_order": "top",
+    "colorize_brackets": true,
+    "telemetry": {
+        "diagnostics": true,
+        "metrics": false
+    },
+    "base_keymap": "VSCode",
+    "minimap": {
+        "show": "never"
+    },
+    "ui_font_size": 16.0,
+    "buffer_font_size": 16.0,
+    "languages": {
+        "JavaScript": {
+            "language_servers": ["vtsls", "oxlint", "oxfmt"]
+        },
+        "TypeScript": {
+            "language_servers": ["vtsls", "oxlint", "oxfmt"]
+        },
+        "TSX": {
+            "language_servers": ["vtsls", "oxlint", "oxfmt"]
+        }
+    }
+}
